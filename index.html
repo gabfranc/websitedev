@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>How to make Chocolate Chip Cookies</title>
+</head>
+
+<body>
+
+
+  <div class="nav">
+   
+   <header>
+      <a href="https://en.wikibooks.org/wiki/Cookbook:Chocolate_Chip_Cookies_I"><h1>How To Bake <br>Chocolate Chip Cookies!</h1></a>
+  </header>    
+  <div class="container">
+
+  
+  
+  <div class="Ingredients">
+   
+    <a href="https://www.youtube.com/watch?v=3vUtRRZG0xY" class="jumping-button"><img src="Choc-Chip-Cookie.jpg" alt="Chocolate Chip Cookies"></a>
+
+    <h2><em>Ingredients</em></h2>
+
+    <ul>
+      <li>2 sticks (1/2 lb / 225 g / 1 cup) butter, softened</li>
+      <li> 3/4 cup (180 ml) granulated white sugar</li>   
+      <li> 3/4 cup (180 ml) packed brown sugar</li> 
+      <li>1/4 teaspoon vanilla extract</li>
+      <li>2 standard (100 g) eggs</li>  
+      <li>2 1/4 cups (600 ml / 290 g) all-purpose flour</li>    
+      <li>1 teaspoon baking soda</li>   
+      <li>1 teaspoon salt</li>
+      <li>1 teaspoon dry ground lemon or orange peel (optional)</li>    
+      <li>2 cups (480 ml / 12 oz) semi-sweet chocolate morsels / chips</li> 
+      <li>5 oz (150 g) chopped nuts, such as groundnuts (optional)</li> 
+    </ul>
+      
+     
+
+
+    </ul>
+
+    <h3><em>Procedure</em></h3>
+
+    <ol>
+      <li>Preheat oven to 375°F (210°C), or 350°F (195°C) if you want <i>chewy cookies</i>.</li>
+      <li>Cream butter, granulated sugar, and brown sugar in a large mixer bowl.</li>
+      <li>Add eggs one at a time, beating until fully incorporated.</li>  
+        <li>Add vanilla extract and beat in.</li>
+        <li>In a small bowl, sift together the dry ingredients (except chocolate and nuts). <br>
+          Add to the wet mixture in two parts and fold until combined. If you beat this too long,<br>
+           you may get some gluten formation which will change the cookie texture.</li>
+        <li>Stir in chocolate morsels (chips), and nuts if using.</li>
+        <li>Drop dough by rounded tablespoons onto ungreased baking sheets. <br> 
+          There should be enough fat in the cookie dough to prevent sticking,<br>
+           but using parchment paper or non-stick pans may help if you find this not to be the case.</li>
+        <li><i>Bake in the preheated oven for 10–12 minutes</i> or <br>
+          until golden brown (cooking times may vary). Let stand for about <br>
+          1 minute and remove from hot baking sheet to cool on a wire rack.</li>
+    </ol>
+    
+    <button id="audioButton"><img src="speaker-filled-audio-tool.png" alt="sound"></button>
+    
+    <audio id="audioElement" src="yt1s.com - Taylor Swift  Picture To Burn Radio Edit (1).mp3"></audio>
+  </div>
+
+  
+  
+  </div>
+
+
+
+  <script>
+    // JavaScript to control the music playback
+    var musicButton = document.getElementById("audiButton");
+        var musicPlayer = document.getElementById("audioElement");
+
+        audioButton.addEventListener("click", function() {
+            if (audioElement.paused) {
+                audioElement.play();
+                audioButton.textContent = "Pause Music";
+            } else {
+                musicPlayer.pause();
+                audioButton.textContent = "Play Music";
+            }
+        });
+
+  </script>
+
+</body>
+
+</html>
